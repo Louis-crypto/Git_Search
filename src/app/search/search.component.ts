@@ -27,7 +27,7 @@ export class SearchComponent implements OnInit {
             resolve();
       },
       error => {
-        console.log('Something went wrong');
+        // console.log('Something went wrong');
         reject(error);
       });
     });
