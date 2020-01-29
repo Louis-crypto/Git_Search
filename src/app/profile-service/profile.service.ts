@@ -44,8 +44,8 @@ export class ProfileService {
 
   }
 
-  getUser(username: string) {
-    return this.http.get(`${this.remoteUrl}${username}/repos`);
-  }
+  // getUser(username: string) {
+  //   return this.http.get(`${this.remoteUrl}${username}/repos`);
+  // }
 }
 
