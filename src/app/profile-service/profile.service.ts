@@ -26,7 +26,7 @@ export class ProfileService {
       login: string;
       avatar_url: string;
     }
-    // const promise = new Promise((resolve, reject) => {
+    const promise = new Promise((resolve, reject) => {
       this.http.get<ApiResponse>(this.baseUrl, {
         headers: {
           Authorization: `Bearer ${this.accessToken}`
