@@ -20,7 +20,7 @@ accessToken: string = 'b8f4d2cf8e68cfc85279a259af32ade17dbce79d';
           headers: {
             Authorization: `Bearer ${this.accessToken}`
           }
-      }).toPromise().then(response => {
+      // }).toPromise().then(response => {
             this.repos = response;
             resolve();
       },error => {
